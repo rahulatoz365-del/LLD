@@ -93,5 +93,3 @@ class Cat extends Animal { // Assuming Animal from earlier example
 }
 
 ```
-
-```
