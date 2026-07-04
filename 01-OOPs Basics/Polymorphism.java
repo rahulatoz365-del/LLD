@@ -54,7 +54,7 @@ public class Polymorphism {
         Calculator calculator = new Calculator();
         System.out.println("Sum of two integers: " + calculator.add(5, 10));
         System.out.println("Sum of three integers: " + calculator.add(5, 10, 15));
-        System.out.println("Sum of two doubles: " + calculator.add(5.5, 10.5));
+        System.out.println("Sum of two doubles: " + calculator.add(5.6, 10.5));
 
         // Runtime Polymorphism (Method Overriding)
         Animal myDog = new Dog(); // Animal reference but Dog object

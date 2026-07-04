@@ -35,7 +35,7 @@ class Dog implements Animal {
 class Cat implements Animal {
     @Override
     public void eat() {
-        System.out.println("Cat is eating");
+        System.out.println("Cat is Eating");
     }
 
     @Override

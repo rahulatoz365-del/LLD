@@ -72,7 +72,7 @@ public class Encapsulation {
         System.out.println("Account Number: " + account.getAccountNumber());
         System.out.println("Account Holder Name: " + account.getAccountHolderName());
         System.out.println("Initial Balance: " + account.getBalance());
-        account.deposit(5000.0);
+        account.deposit(6000.0);
         System.out.println("Balance after deposit: " + account.getBalance());
         account.withdraw(2000.0);
         System.out.println("Balance after withdrawal: " + account.getBalance());

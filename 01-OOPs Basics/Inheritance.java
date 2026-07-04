@@ -75,7 +75,7 @@ public class Inheritance {
         manualCar.changeGear(3); // Calling changeGear method from ManualCar class
         manualCar.stop(); // Calling stop method from Vehicle class
         // Creating an object of AutomaticCar class and calling the methods inherited from Vehicle class
-        AutomaticCar automaticCar = new AutomaticCar("Blue", "EV", "Tesla", "Automatic");
+        AutomaticCar automaticCar = new AutomaticCar("Yellow", "EV", "Tesla", "Automatic");
         automaticCar.start(); // Calling start method from Vehicle class
         automaticCar.changeTransmission("Semi-Automatic"); // Calling changeTransmission method from AutomaticCar class
         automaticCar.stop(); // Calling stop method from Vehicle class
