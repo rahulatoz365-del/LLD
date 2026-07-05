@@ -77,9 +77,6 @@ Now, the classes only implement the interfaces they can actually fulfill:
 The `BankClient` now accepts precisely what it needs. It processes `WithdrawableAccount` objects knowing that a `withdraw()` call is 100% guaranteed to be supported, eliminating the need for `try-catch` blocks or `instanceof` checks.
 
 ---
-Here is a clear, code-focused breakdown of the 7 rules of the Liskov Substitution Principle (LSP). You can add this directly into your repository's documentation to give readers concrete examples of what to do and what to avoid.
-
----
 
 ## ⚖️ The 7 Rules of LSP: Code Examples
 
