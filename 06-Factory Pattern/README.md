@@ -1,7 +1,5 @@
 # 🍔 Factory Design Pattern: The Burger Franchise
 
-Welcome to the **Factory Design Pattern** demonstration repository. This project serves as a comprehensive guide to understanding creational design patterns. 
-
 In object-oriented programming, scattering the `new` keyword throughout your code tightly couples your high-level logic to low-level implementations. The Factory Pattern solves this by delegating the instantiation of objects to dedicated "factory" classes. 
 
 This repository tracks the evolution of this concept through three distinct architectural stages: **Simple Factory**, **Factory Method**, and **Abstract Factory**, using a fast-food franchise simulation (`SinghBurger` and `KingBurger`).

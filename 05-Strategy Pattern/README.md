@@ -1,7 +1,5 @@
 # 🤖 Strategy Design Pattern: Robot Simulation
 
-Welcome to the **Robot Strategy Pattern** demonstration repository. This project serves as a practical implementation of the **Strategy Design Pattern**, showcasing how to encapsulate families of algorithms and make them interchangeable at runtime.
-
 By favoring composition over inheritance, this design ensures that adding new behaviors (like driving or swimming) or new robots does not require massive code duplication or brittle class hierarchies.
 
 ---
