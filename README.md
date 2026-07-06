@@ -36,3 +36,9 @@ The sub-directory READMEs include:
  ┃ ┣ 📜 README.md          <-- Specific explanation, class design, and logic
  ┃ ┗ 📜 ... (code files)
  ┣ 📜 README.md            <-- You are here!
+```
+
+---
+
+## Credits
+Refer to this Youtube Playlist if you want to understand in more depth https://www.youtube.com/playlist?list=PLQEaRBV9gAFvzp6XhcNFpk1WdOcyVo9qT
