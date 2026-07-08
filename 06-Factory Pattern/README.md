@@ -1,6 +1,8 @@
 # 🍔 Factory Design Pattern: The Burger Franchise
 
-In object-oriented programming, scattering the `new` keyword throughout your code tightly couples your high-level logic to low-level implementations. The Factory Pattern solves this by delegating the instantiation of objects to dedicated "factory" classes. 
+The Factory Design Pattern is a creational software design pattern that provides an interface or method for creating objects, but delegates the exact responsibility of which class to instantiate to subclasses or dedicated factory classes.
+
+In essence, it abstracts the object creation process, ensuring that a system is independent of how its objects are created, composed, and represented. Instead of hardcoding object instantiation using the new keyword throughout an application, the code requests objects from a central "factory". 
 
 This repository tracks the evolution of this concept through three distinct architectural stages: **Simple Factory**, **Factory Method**, and **Abstract Factory**, using a fast-food franchise simulation (`SinghBurger` and `KingBurger`).
 

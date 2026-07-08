@@ -1,4 +1,5 @@
 # 🤖 Strategy Design Pattern: Robot Simulation
+The Strategy Design Pattern is a behavioral software design pattern that allows you to define a family of algorithms, encapsulate each one into its own separate class, and make them interchangeable at runtime.In simpler terms, it lets a program choose how it is going to perform a specific task dynamically, without having to change the main code that requests the task.
 
 By favoring composition over inheritance, this design ensures that adding new behaviors (like driving or swimming) or new robots does not require massive code duplication or brittle class hierarchies.
 
