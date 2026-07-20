@@ -1,10 +1,6 @@
 # 🍔 Factory Design Pattern: The Burger Franchise
 
-The Factory Design Pattern is a creational software design pattern that provides an interface or method for creating objects, but delegates the exact responsibility of which class to instantiate to subclasses or dedicated factory classes.
-
-In essence, it abstracts the object creation process, ensuring that a system is independent of how its objects are created, composed, and represented. Instead of hardcoding object instantiation using the new keyword throughout an application, the code requests objects from a central "factory". 
-
-This repository tracks the evolution of this concept through three distinct architectural stages: **Simple Factory**, **Factory Method**, and **Abstract Factory**, using a fast-food franchise simulation (`SinghBurger` and `KingBurger`).
+The Factory Design Pattern is a creational design pattern that provides a centralized interface for creating objects without exposing the exact instantiation logic to the client. Instead of calling new ConcreteClass() directly, the client asks a "Factory" class or method to create and return the object. This delegates the responsibility of object instantiation, promoting loose coupling and making applications much easier to extend.
 
 ---
 
