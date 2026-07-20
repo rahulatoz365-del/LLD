@@ -1,12 +1,12 @@
 # 🍔 Factory Design Pattern: The Burger Franchise
 
-The Factory Design Pattern is a creational design pattern that provides a centralized interface for creating objects without exposing the exact instantiation logic to the client. Instead of calling new ConcreteClass() directly, the client asks a "Factory" class or method to create and return the object. This delegates the responsibility of object instantiation, promoting loose coupling and making applications much easier to extend.
+The Factory Design Pattern is a creational design pattern that provides a centralized interface for creating objects without exposing the exact instantiation logic to the client. Instead of calling `new ConcreteClass()` directly, the client asks a "Factory" class or method to create and return the object. This delegates the responsibility of object instantiation, promoting loose coupling and making applications much easier to extend.
 
 ---
 
 ## 🏗️ Architecture & UML Diagram (Abstract Factory)
 
-The pinnacle of this repository is the Abstract Factory pattern, which encapsulates the creation of *families* of related objects (Burgers and Garlic Bread). 
+The pinnacle of this repository is the Abstract Factory pattern, which encapsulates the creation of *families* of related objects (Burgers and Garlic Bread).
 
 Below is the UML class diagram representing the final `AbstractFactoryDemo` architecture:
 
@@ -73,6 +73,8 @@ This repository breaks down the pattern into three executable files, showing how
 
 ### Stage 1: The Simple Factory (`SimpleFactoryDemo.java`)
 
+> **Definition:** A single, centralized class that handles all object instantiation using conditional logic based on input parameters.
+
 **The Analogy:** A single food truck with one chef taking all the orders.
 
 * **How it works:** We create one single class (`BurgerFactory`) with a static method containing a massive `switch` or `if/else` block. The client says "I want a basic burger," and the factory returns the correct object.
@@ -81,6 +83,8 @@ This repository breaks down the pattern into three executable files, showing how
 
 ### Stage 2: The Factory Method (`FactoryMethodDemo.java`)
 
+> **Definition:** An interface for creating objects that allows subclasses to decide which specific concrete classes to instantiate.
+
 **The Analogy:** Opening multiple distinct franchise locations (`SinghBurger`, `KingBurger`), where each location decides how to make their own version of the food.
 
 * **How it works:** We solve the OCP violation by creating a `BurgerFactory` **interface**. We then let concrete sub-factories (`SinghBurger`, `KingBurger`) implement their own specific creation logic.
@@ -88,6 +92,8 @@ This repository breaks down the pattern into three executable files, showing how
 * **The Benefit:** Total compliance with the Open/Closed Principle. If a new franchise opens, you simply create a new class that implements `BurgerFactory`. You don't have to touch any existing code.
 
 ### Stage 3: The Abstract Factory (`AbstractFactoryDemo.java`)
+
+> **Definition:** An interface for creating families of related or dependent objects without specifying their concrete classes.
 
 **The Analogy:** Selling "Combo Meals" where the items must match the brand's specific theme.
 
